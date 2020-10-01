@@ -132,7 +132,7 @@ function upD() {
   function downD() {
       if (dress_y <=700 ) {
         dress_y=dress_y+10; 
-        console.log("when up arrow is pressed,x= " + dress_x+ ", y= " + dress_y);
+        console.log("when down arrow is pressed,x= " + dress_x+ ", y= " + dress_y);
         uploadBackground();
         uploadDress();
         uploadShoes();
@@ -140,9 +140,9 @@ function upD() {
     }
   
     function leftD() {
-      if (dress_x >=0 ) {
+      if (dress_x >=10 ) {
         dress_x=dress_x-10; 
-        console.log("when up arrow is pressed,x= " + dress_x+ ", y= " + dress_y);
+        console.log("when left arrow is pressed,x= " + dress_x+ ", y= " + dress_y);
         uploadBackground();
         uploadDress();
         uploadShoes();
@@ -152,7 +152,7 @@ function upD() {
     function rightD() {
       if (dress_x <=840 ) {
         dress_x=dress_x+10; 
-        console.log("when up arrow is pressed,x= " + dress_x+ ", y= " + dress_y);
+        console.log("when right arrow is pressed,x= " + dress_x+ ", y= " + dress_y);
         uploadBackground();
         uploadDress();
         uploadShoes();
@@ -174,7 +174,7 @@ function upD() {
       function downS() {
           if (shoes_y <=700 ) {
             shoes_y=shoes_y+10; 
-            console.log("when up arrow is pressed,x= " + shoes_x+ ", y= " + shoes_y);
+            console.log("when down arrow is pressed,x= " + shoes_x+ ", y= " + shoes_y);
             uploadBackground();
             uploadShoes();
             uploadDress();
@@ -182,9 +182,9 @@ function upD() {
         }
       
         function leftS() {
-          if (shoes_x >=0 ) {
+          if (shoes_x >=10 ) {
             shoes_x=shoes_x-10; 
-            console.log("when up arrow is pressed,x= " + shoes_x+ ", y= " + shoes_y);
+            console.log("when left arrow is pressed,x= " + shoes_x+ ", y= " + shoes_y);
             uploadBackground();
             uploadShoes();
             uploadDress();
@@ -194,7 +194,7 @@ function upD() {
         function rightS() {
           if (shoes_x <=840 ) {
             shoes_x=shoes_x+10; 
-            console.log("when up arrow is pressed,x= " + shoes_x+ ", y= " + shoes_y);
+            console.log("when right arrow is pressed,x= " + shoes_x+ ", y= " + shoes_y);
             uploadBackground();
             uploadShoes();
             uploadDress();
